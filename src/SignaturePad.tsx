@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import Signature_Pad from 'signature_pad';
 
 interface Props {
-	width: Number;
-	height: Number;
+	width?: number | string;
+	height?: number | string;
 	setSignature: React.Dispatch<React.SetStateAction<string>>;
 }
 
@@ -34,6 +34,8 @@ export default function SignaturePad({ width, height, setSignature }: Props) {
 
 	useEffect(() => {
 		readyPad();
+		if (typeof width == 'number') width = width + 'px';
+		if (typeof height == 'number') height = height + 'px';
 	}, []);
 
 	return (
@@ -41,8 +43,8 @@ export default function SignaturePad({ width, height, setSignature }: Props) {
 			<div
 				id='signature-pad'
 				style={{
-					width: width.toString() + 'px',
-					height: height.toString() + 'px',
+					width,
+					height,
 					border: '3px solid',
 					borderRadius: 10,
 				}}
