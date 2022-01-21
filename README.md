@@ -1,5 +1,5 @@
 
-# React Signature
+# React Signature Pad
 
 Example of how Szymon Nowak's signature_pad project could be made into a React component using Typescript.
 
