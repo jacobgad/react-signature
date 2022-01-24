@@ -7,6 +7,10 @@ This react component is used to allow user mouse or touch input for digital sign
 
 the signature is saved as an encoded image as a string to make it easy to store in a database as a string, and also making it easy to display in your HTML.
 
+## Demo
+
+https://lucid-shannon-4009a7.netlify.app/
+
 ## Usage/Examples
 
 Store the string in your database and then you can display it in your HTML using a <img> tag like this:
