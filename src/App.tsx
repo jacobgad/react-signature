@@ -21,7 +21,7 @@ export default function App() {
 		<div style={{ display: 'grid', placeItems: 'center', gap: 10 }}>
 			<h1>Signature Form: </h1>
 			<div>
-				<label htmlFor='firstName'>First Name</label>
+				<label htmlFor='firstName'>First Name </label>
 				<input
 					type='text'
 					id='firstName'
@@ -31,7 +31,7 @@ export default function App() {
 				/>
 			</div>
 			<div>
-				<label htmlFor='lastName'>Last Name</label>
+				<label htmlFor='lastName'>Last Name </label>
 				<input
 					type='text'
 					id='lastName'
