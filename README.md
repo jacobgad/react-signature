@@ -9,7 +9,7 @@ the signature is saved as an encoded image as a string to make it easy to store 
 
 ## Demo
 
-https://lucid-shannon-4009a7.netlify.app/
+https://jacobgad-react-signature-pad.netlify.app
 
 ## Usage/Examples
 
